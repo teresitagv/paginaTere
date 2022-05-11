@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Play:wght@700&display=swap');
+*{
+margin:0px;
+}
+.index{
+/* background-color: lightcoral; */
+background-image: url("IMG_3655.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display:flex;
+align-items: center;
+}
+.principal{
+/* border: 5px solid red; */
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+/* margin-top: auto;
+margin-bottom: auto; */
+color:brown ;
+text-align: center;
+}
+.principal__titulo{
+font-size: 100px;
+font-family: 'Bebas Neue', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal__parrafo{
+font-size: 40px;
+}
+.principal__boton{
+width:200px;
+height: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color:black;color: white;
+font-size: 20px;
+font-family: 'Bebas Neue';
+border: none;
+border-radius: 5%;
+cursor:pointer;
+} 
+
+.redesSociales{
+    background-color:rgb(169,211,158);
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes_sociales_logo{ 
+    height:30px;
+    margin-left: 20px;
+    
+}
+
+.menu{
+    background-color:whitesmoke;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.menu__logo{
+    height: 60px;
+
+
+}
+
+.menu__lista{
+    display:flex;
+    list-style: none;
+    color:black;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+.menu__lista__link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu_lista_elementos{ 
+    margin-left: 40px;
+}
+
+
+.menu__lista__elemento__link:hover{
+    color: rgb(250,250,250);
+}
+
+.footer{
+    background-color:rgb(169,211,158);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}  
+
+.footer_texto{ 
+    font-family:"play";
+    color:rgb(255, 253, 253);
+    font-size: 20px;
+}
+
+.Lado_Derecho{
+    border: 7px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: flex-start;  
+}
+
+.Lado_Derecho__img{
+    width: 40%;
+    
+}
+
+.Lado_Derecho__texto{
+    width: 35%;
+    justify-content: center;
+}
+
+ h1,p{
+    margin: 30px;
+    text-align:center;
+}
+
+.contenedorMain{
+    background-color:rgb(147, 197, 114);
+    display: flex;
+    justify-content: center;
+    height:340px; 
+
+    
+}
+
+.contenedorMain__img{
+    height: 340px;
+}
+
+
+    
+
